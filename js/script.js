@@ -34,4 +34,4 @@ if (eta < 18){
 }
 
 // L’output del prezzo finale va messo fuori in forma umana(con massimo due decimali, per indicare centesimi sul prezzo)
-document.getElementById('prezzofinale').innerHTML = 'Il prezzo finale del biglietto è di ' + parseFloat(prezzoFinale).toFixed(2) + '€.';
+document.getElementById('prezzofinale').innerHTML = 'Il prezzo finale del biglietto è di ' + prezzoFinale.toFixed(2) + '€.';
