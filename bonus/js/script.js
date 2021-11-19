@@ -38,7 +38,7 @@ if (parseInt(eta) < 18){
 
 // L’output del prezzo finale va messo fuori in forma umana(con massimo due decimali, per indicare centesimi sul prezzo)
 // Bonus: controllare se l'utente ha inserito dei dati nel prompt
-if (chilometri.length = 0 || eta.length = 0 || chilometri == '0' || eta == '0') {
+if (chilometri.length == 0 || eta.length == 0 || chilometri == '0' || eta == '0') {
     document.getElementById('prezzofinale').innerHTML = 'Non hai inserito i chilometri o la tua età. Aggiorna la pagina e inserisci i dati corretti.';
 } else {
     document.getElementById('prezzofinale').innerHTML = 'Il prezzo finale del biglietto è di ' + prezzoFinale.toFixed(2) + '€.';
